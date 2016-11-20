@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/style.css" rel="stylesheet" type="text/css"  />	
+		<link href="../css/detail.css" rel="stylesheet" type="text/css"  />
+		<link href="../css/Tab_list.css" rel="stylesheet" type="text/css"  />
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/yiguo.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/Tab_list.js"></script>
+		
+		<script>
+		$(function(){
+				$('#hea_top').load('header_footer.html #wp',yiguo);
+				$('#foo').load('header_footer.html #footer_wrapper');
+				$('.cat').load('header_footer.html #ca',lbtzbdh)
+			})
+		</script>
+	</head>
+	<body>
+		<div id='hea_top'></div>
+		<div class="wrap clear">
+			<div class="cat"></div>
+			<div class="nav_items">
+					<ul class="homenav">
+						<li><a href="javascript:;">新品专区</a></li>
+						<li><a href="javascript:;">优质生活</a></li>
+						<li><a href="javascript:;">银行专区</a></li>
+						<li><a href="javascript:;">菜谱专栏</a></li>
+					</ul>
+					
+			</div>
+		</div>
+		<div class="wrap">
+			<!--默认排序--评论-->
+				<div class="filter">
+					<a href="javascript:;" class="sort_1">默认排序</a>
+					<a href="javascript:;" class="sort_2">销量<i class="down"></i></a>
+					<a href="javascript:;" class="sort_3">价格<i class="sort_up"></i></a>
+					<a href="javascript:;" class='sort_4'>排序<i class="down"></i></a>
+				</div>
+				<ul class="clear p_ul">
+						<!--<li class="product_item">
+						<div class="p_img">
+							<a href="javascript:;"><img src="../img/p_img1.jpg" alt="" /></a>
+						</div>
+						<div class="p_info">
+							<div class="p_name">
+								<a href="javascript:;">
+									加拿大北极甜<font color="red">虾</font>熟冻200g（120+/kg）
+								</a>
+							</div>
+							<div class="p_price">
+								<a href="javascript:;">
+									<span class="price">
+										<strong>¥18.00</strong>
+									</span>
+									<span class="saletip"><b>促</b>2份49元</span>
+								</a>
+							</div>
+						</div>
+						<div class="p_buy">
+							<span>极地野生，鲜甜甘美<br>紧致Q弹,解冻即食</span>
+							<a href="javascript:;" class='btn_by'>加入购物车</a>
+						</div>
+					</li>-->
+				</ul>
+		</div>
+		<div id='foo'></div>
+		<script type='text/javascript' src='http://tb.53kf.com/kf.php?arg=10145875&style=1'></script>
+
+	</body>
+</html>

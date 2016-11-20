@@ -1,0 +1,60 @@
+/*全部商品分类下面的导航*/
+.crumbs{
+	margin: 10px 0;
+	
+	
+}
+.crumbs a{
+	display: inline-block;
+	padding: 0 10px;
+	color: #444;
+	
+}
+.help_nav{
+	width: 180px;
+	float: left;
+}
+.outli{
+	margin-bottom: 10px;
+}
+.help_nav .tt{
+	color: #404040;
+	font-size: 14px;
+	width: 84px;
+	padding: 10px 0;
+	border-bottom:solid 1px #898989;
+	font-weight: 900;
+}
+.help_nav .inner a{
+	display: inline-block;
+	color: #7a7a7a;
+	margin-top: 5px;
+	line-height: 22px;
+}
+/*右边购物流程展示*/
+.help_show{
+	width: 1020px;
+	float: right;
+	overflow: hidden;
+}
+.help_show .tt{
+	color: #404040;
+	font-size: 14px;
+	width: 1020px;
+	padding: 10px 0;
+	border-bottom:solid 1px #898989;
+	font-weight: 900;
+}
+.help_show img{
+	margin-bottom: 25px;
+}
+.words{
+	color: #818985;
+	line-height: 22px;
+	padding-left: 15px;
+}
+.greent{
+	color: #008742;
+	margin: 10px 0 15px;
+	font-size: 14px;
+}

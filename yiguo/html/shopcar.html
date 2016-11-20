@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<link href="../css/iconfont.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="../css/shopcar.css" type="text/css"/>
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/yiguo.js"></script>
+		<script src="../js/shopcar.js"></script>
+		
+		<script>
+			$(function(){
+			
+				$('#foo').load('header_footer.html #footer_wrapper',yiguo);
+			
+			})
+		</script>
+	</head>
+	<body>
+		<!--网页头部-->
+	<div id="wp">
+	<div id="site_nav">
+		<div class="site_nav_inner">
+			<ul class="fl">
+				<li>欢迎光临易果生鲜！</li>
+				<li>
+					<div class="city_sz">配送至:</div>
+					<div class="city_tit">
+						<span  id="city_a">北京
+							<s></s>
+							<div class="city_con">
+								<div class="city_top">请根据您的收货地址选择<span>全国其它城市>></span></div>
+								<div class="city_hot">
+									<span class="hot_sp1"><i></i>热门城市</span>
+									<a href="#">上海</a>
+									<a href="#">北京</a>
+									<a href="#">天津</a>
+									<a href="#">南京市</a>
+									<a href="#">苏州市</a>
+									<a href="#">无锡市</a>
+									<a href="#">杭州市</a>
+									<a href="#">宁波市</a>
+								</div>
+								<p class="city_tab">
+									<span>ABCDE</span>
+									<span>FGHIJ</span>
+									<span>KLMNO</span>
+									<span>PQRST</span>
+									<span>UVWXYZ</span>
+								</p>
+								<div class="city_list">
+										<dl>
+											<dt>A</dt>
+											<dd>
+												<a href="javascript:;">安庆市</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>B</dt>
+											<dd>
+												<a href="javascript:;">滨州市</a>
+												<a href="javascript:;">蚌埠市</a>
+												<a href="javascript:;">保定市</a>
+												<a href="javascript:;">北京</a>
+												<a href="javascript:;">北京(郊区)</a>
+											</dd>
+										</dl>					
+										<dl>
+											<dt>C</dt>
+											<dd>           
+												<a href="javascript:;">慈溪市</a>
+												<a href="javascript:;">滁州市</a>
+												<a href="javascript:;">成都市</a>
+												<a href="javascript:;">承德市</a>
+												<a href="javascript:;">长春市</a>
+												<a href="javascript:;">常熟市</a>
+												<a href="javascript:;">常州市</a>
+												<a href="javascript:;">池州市</a>
+												<a href="javascript:;">长沙市</a>
+												<a href="javascript:;">巢湖市</a>
+												<a href="javascript:;">沧州市</a>
+												<a href="javascript:;">潮州市</a>
+												<a href="javascript:;">重庆</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>D</dt>
+											<dd>
+												<a href="javascript:;">东莞市</a>
+												<a href="javascript:;">大连市</a>
+												<a href="javascript:;">东营市</a>
+												<a href="javascript:;">德州市</a>
+												<a href="javascript:;">丹阳市</a>
+											</dd>
+										</dl>
+									</div>	
+							</div>
+						
+					</div>
+				</li>
+			</ul>
+			<ul class="fr">
+				<li class="tel"><a href="#">提货券入口<i></i></a></li>
+				<li class="pay"><a href="#">储值卡<i></i></a></li>
+				<li class="mobile"><a href="#">手机易果<i></i><s></s></a>
+					<ul class="mobile_ul">
+						<li class="ewm"><img src="../img/qrcode_app.jpg"></li>
+						<li class="sys">扫一扫下载APP</li>
+						<li class="ewm"><img src="../img/qrcode_wechat.jpg"></li>
+						<li class="ygwx">易果生鲜微信</li>
+					</ul>
+				</li>
+				<li class="myyiguo"><a href="#">我的易果<i></i><s></s></a>
+					<ul class="my_yg">
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">我的优惠券<b class="coupon">0</b></a></li>
+						<li><a href="#">我的收藏</a></li>
+						<li><a href="#">我的幽币</a></li>
+						<li><a href="#">我的退换币</a></li>
+						<li><a href="#">预存款查询</a></li>
+						<li><a href="#">立即充值</a></li>
+					</ul>					
+				</li>
+				<li clas="logout"></li>
+				<li class="_loginname"></li>
+				<li id="_register"><a href="javascript:;">[注册]</a></li>
+				<li id="_login"><a href="login.html">[登陆]</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<!--网页头部结束-->
+	<!--导航部分-->
+	
+	<div class="nav">
+		<div class="wrap clear">
+			<div class="logo1">
+				<a href="javascript:;"></a>
+			</div>
+			<div class="process">
+			<ul>
+				<li class="on"><span>我的购物车</span><b>1</b></li>
+				<li><span>填写订单信息</span><b>2</b><i></i></li>
+				<li><span>成功提交订单</span><b>3</b><i></i></li>
+			</ul>
+		</div>
+		</div>
+		
+	</div>
+	<div class="car">
+		<div class="wrap">
+			<h2><i></i><span>配送至: 北京</span><a href="javascript:;" class="continue">继续购物>></a></h2>
+			<div class="car_alert">
+				<div class="car_header">
+					<table class="car_table" style="height">
+						<tr>
+							<th class="cart_check"><label><input type="checkbox"  class="ch_qx" name="qx" checked/>全选</label></th>
+							<th class="cart_info">商品信息</th>
+							<th class="cart_ub">幽币</th>
+							<th class="cart_price">单价</th>
+							<th class="cart_num">购买数量</th>
+							<th class="cart_total">合计</th>
+							<th class="cart_spec">规格</th>
+							<th class="cart_opera">操作</th>
+						</tr>
+					</table>
+					<div class="global_wrapper">
+				<div class="global clear">
+					<div class="g_header">
+						<b>提示</b><span class="x">x</span>
+					</div>
+					<div class="g_main clear">
+						<p class="icon"></p>
+						<p class="sure">确定删除此商品吗？</p>
+						<a href="javascript:;" class="del_a">删除</a><a href="javascript:;" class="cancel_a">取消</a>
+					</div>
+				</div>
+			</div>
+				</div>
+				<div class="cart_list">
+					<!--<table class="car_table">
+						<tr>
+							<td class="cart_check"><input type="checkbox" class="ch_qx"  name="qx"/></td>
+							<td class="cart_img"><img src="../img/1.jpg" alt="" /></td>
+							<td class="cart_info">澳大利亚脐橙12个约160g/个(北京)</td>
+							<td class="cart_ub"></td>
+							<td class="cart_price">￥49.00</td>
+							<td class="cart_num"><a href="javascript:;" class="decrease"></a><input type="text" class="itxt"/><a class="plus" href="javascript:;"></a></td>
+							<td class="cart_total">￥49.00</td>
+							<td class="cart_spec">12个/箱</td>
+							<td class="cart_opera"><a href="javascript:;" class="removebox">移入收藏夹</a><a href="javascript:;" class="delete">删除</a></td>
+						</tr>
+					</table>-->
+					
+				
+					<div class="cart_box">
+						<div class="che">
+							<input type="checkbox" class=""  name="qx"/>可选保温箱（若不选可降解保温箱，冰鲜/冷冻商品我们将默认为您使用免费一次性保温箱包装）  
+						</div>
+					</div>
+					<div class="check_all clear">
+						<div class='l'>
+							<label><input type="checkbox" checked/>全选</label>
+							<a href="javascript:;" class="del_this"><i></i>删除选中的商品</a>
+							<a href="javascript:;" class="clear_car">清空购物车</a>
+						</div>
+						<div class="r">
+							<span class="yb">幽币:<b>0</b>个</span>
+							<span class="totle_price">总价:<i>0</i></span>
+							<a href="javascript:;" class="go_account">去结算</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--特惠换购-->
+			<div class="Preferential_buy">
+				<h3><i></i>特惠换购<a href="javascript:;"><b></b>换一批</a></h3>
+				<ul class="clear">
+					<!--<li class="product">
+						<div class="p_img">
+							<a href="javascript:;"><img src="../img/thhg1.jpg" width="90" height="90"/></a>
+						</div>
+						<div class="p_info">
+							<div class="p_name">
+								<a href="javascript:;">辽宁丹东菇娘果500g(北京) X 1</a>
+							</div>
+							<div class="p_price">
+								<span>￥<strong>19.90</strong>/份</span>
+								<del>29.80</del>
+							</div>
+							<a class="btn_hg" href="javascript:;">换购</a>
+						</div>
+					</li>
+					<li class="product">
+						<div class="p_img">
+							<a href="javascript:;"><img src="../img/thhg1.jpg" width="90" height="90"/></a>
+						</div>
+						<div class="p_info">
+							<div class="p_name">
+								<a href="javascript:;">辽宁丹东菇娘果500g(北京) X 1</a>
+							</div>
+							<div class="p_price">
+								<span>￥<strong>19.90</strong>/份</span>
+								<del>29.80</del>
+							</div>
+							<a class="btn_hg" href="javascript:;">换购</a>
+						</div>
+					</li>
+					<li class="product">
+						<div class="p_img">
+							<a href="javascript:;"><img src="../img/thhg1.jpg" width="90" height="90"/></a>
+						</div>
+						<div class="p_info">
+							<div class="p_name">
+								<a href="javascript:;">辽宁丹东菇娘果500g(北京) X 1</a>
+							</div>
+							<div class="p_price">
+								<span>￥<strong>19.90</strong>/份</span>
+								<del>29.80</del>
+							</div>
+							<a class="btn_hg" href="javascript:;">换购</a>
+						</div>
+					</li>
+					<li class="product">
+						<div class="p_img">
+							<a href="javascript:;"><img src="../img/thhg1.jpg" width="90" height="90"/></a>
+						</div>
+						<div class="p_info">
+							<div class="p_name">
+								<a href="javascript:;">辽宁丹东菇娘果500g(北京) X 1</a>
+							</div>
+							<div class="p_price">
+								<span>￥<strong>19.90</strong>/份</span>
+								<del>29.80</del>
+							</div>
+							<a class="btn_hg" href="javascript:;">换购</a>
+						</div>
+					</li>-->
+					
+				</ul>
+			</div>
+			
+		</div>
+	</div><!--car结束-->
+	<div class="wrap">
+		<div class="car_none">
+			<p><b>购物车是空的，去买点东西吧！<a href="index.html">继续逛逛</a></b><br/>您还尚未<a href="login.html">登陆</a></p>
+		</div>
+	</div>
+	
+<!--网页尾部-->
+<div id="foo"></div>
+</div>
+	</body>
+</html>

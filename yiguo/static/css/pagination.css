@@ -1,0 +1,81 @@
+@charset "utf-8";      
+.pagination a {
+    text-decoration: none;
+	border: 1px solid #f1f1f1;
+	color: #15B;
+	display: inline-block;
+}
+
+.pagination a, .pagination span {
+    display: inline-block;
+    padding: 0.1em 0.4em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+	color: #444;
+	
+}
+.pagination{
+	position: relative;
+	width: 240px;
+	left: 718px;
+	bottom: 10px;
+}
+
+.pagination .current {
+    background: #26B;
+    color: #fff;
+	border: 1px solid #AAE;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
+#Pagination .next{
+	display: inline-block;
+    padding: 0.1em 0.4em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+ #setPageDiv {
+            clear: left;
+            width: 1000px;
+            margin: 10px auto;
+        }
+
+        .shopping {
+            position: fixed;
+            height: 50px;
+            width: 200px;
+            right: 0px;
+            top: 15px;
+        }
+
+        .shopping-buy-btn {
+            border: 1px dotted #cdcdcd;
+            background-color: #cdcdcd;
+            color: #cc0033;
+            font-size: small;
+            border-radius: 3px;
+            box-shadow: 0 0 5px #cdcdcd;
+
+        }
+
+        .shopping span.showNum {
+            position: absolute;
+            left: 8px;
+            top: -8px;
+            background-color: #f69;
+            color: #FFFFFF;
+            font-size: large;
+            width: 20px;
+            height: 15px;
+            border-radius: 20px;
+            text-align: center;
+}
+.pagination .pr_l{
+	width: 18px;
+	height: 18px;
+
+}

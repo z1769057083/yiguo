@@ -1,0 +1,174 @@
+.w{
+	background: #f7f8f8;
+}
+#header_r{
+	
+	background: #e0e0e0;
+}
+
+.wrap{
+	height: 50px;
+	width: 1200px;
+	margin: 0 auto;
+	
+	padding: 15px 0 5px;
+}
+.wrap .logo h1{
+	text-indent: -5000px;
+}
+.wrap .logo a{
+	float: left;
+	display: block;
+	width: 145px;
+	height: 50px;
+	background: url(../img/logo.png) no-repeat;
+}
+.wrap .logo span{
+	margin-left: 92px;
+	display: block;
+	float: left;
+	font-size: 28px;
+	font-family: "微软雅黑","宋体";
+	color: #008842;
+}
+.login_wrap{
+	
+	background: #fff;
+	padding-top: 22px;
+}
+.login_wrap .login{
+	background: #fff;
+	padding-top: 30px;
+	width: 1200px;
+	height: 451px;
+	margin:0 auto;
+}
+/*图片*/
+.log_l{
+	float: left;
+}
+/*欢迎登陆*/
+.log_r{
+	width: 308px;
+	padding: 30px 20px 20px;
+	border: 1px solid #e3e6e0;
+	float:right;
+}
+.log_r p{
+	margin-bottom: 20px;
+}
+.log_r .log_p1 strong{
+	font:18px/1 "Microsoft YaHei";
+}
+.log_r .log_p1 a{
+	float: right;
+	font: 12px Arial, "SimSun";
+	color: #878787;
+	display: block;
+}
+/*左边图标*/
+.log_r .mail,.log_r .pass,.log_r .yzm{
+	width: 39px;
+	height: 38px;
+	display: inline-block;
+	background: #f4f4f4 url(../img/bg_input.png) no-repeat  2px -120px;
+	vertical-align: middel;
+	border: 1px solid #c1c1c1;	
+	float: left;
+}
+/*邮箱     密码    验证码*/
+.log_r .yxzh,.log_r .password,.log_r .yzm_in{
+	width: 255px;
+	padding-left: 10px;
+	height: 38px;
+	border: 1px solid #c1c1c1;
+	vertical-align: middle;
+	float: left;
+	border-left: 0;
+	outline:none;
+}
+/*密码*/
+.log_r .pass{
+	background-position: 2px -180px;
+}
+
+.log_r .yzm_in{
+	width: 112px;
+}
+/*验证码*/
+.yzm_s{
+	width: 48px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 24px;
+	background: url(../img/yzm.png) no-repeat;
+}
+.hyz{
+	margin-left: -3px;
+	cursor: pointer;
+	vertical-align: bottom;
+}
+
+.log_r label{
+	float: left;
+}
+/*自动登录*/
+.log_r .auto_login{
+	margin-left: 10px;
+}
+/*忘记密码*/
+.log_r .forget_pass{
+	float: right;
+	display: block;
+}
+/*登录*/
+.dl_p{
+	
+	
+
+	
+}
+.dl_p .dl{
+	display: block;
+	width: 306px;
+	height: 50px;
+	background: #008842;
+	font: 18px/50px "Microsoft YaHei";
+	text-align: center;
+	color: #fff;
+}
+/*第三方登录图片*/
+.login_img{
+	display: block;
+}
+.login_img a{
+	display: block;
+	width: 88px;
+	height: 20px;
+	background: url(../img/bg_login.png) no-repeat;
+	margin-right: 20px;
+	float: left;
+}
+.login_img .qq{
+	background-position: -60px -200px;
+}
+.login_img .wb{
+	background-position: -160px -200px;
+}
+.login_img .esh{
+	width: 57px;
+	background-position: -260px -200px;
+}
+/*错误提醒*/
+.msg-error {
+    position: relative;
+    background: #FFEBEB;
+    border: 1px solid #E4393C;
+    padding: 3px 10px 3px 40px;
+    line-height: 18px;
+    min-height: 18px;
+    color: #E4393C;
+    display: none;
+}

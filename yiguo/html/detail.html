@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/style.css" rel="stylesheet" type="text/css"  />	
+		<link rel="stylesheet" href="../css/pagination.css"/>
+		<link href="../css/detail.css" rel="stylesheet" type="text/css"  />
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/jquery.pagination.js"></script>
+		<script src="../js/yiguo.js"></script>
+		<script src="../js/detail.js"></script>
+		
+		
+		<script>
+		$(function(){
+				$('#hea_top').load('header_footer.html #wp',yiguo);
+				$('#foo').load('header_footer.html #footer_wrapper');
+				$('.cat').load('header_footer.html #ca',lbtzbdh);
+			})
+		</script>
+	</head>
+	<body>
+		<div id="hea_top"></div>
+		<div class="header_nav">
+			<div class="wrap">
+				<!--引入全部商品分类-->
+				<div class="cat"></div>
+				<div class="nav_items">
+					<ul class="homenav">
+						<li><a href="javascript:;">新品专区</a></li>
+						<li><a href="javascript:;">优质生活</a></li>
+						<li><a href="javascript:;">银行专区</a></li>
+						<li><a href="javascript:;">菜谱专栏</a></li>
+					</ul>
+					
+				</div>
+			</div>
+			
+		</div>
+		<div class="wrap">
+			<div class="crumbs">
+						<a href="index.html">首页</a>>
+						<a href="Tab_list.html">海鲜水产</a>>
+						<a href="javascript:;">特色海产</a>>
+						<a href="javascript:;">福建深海野生红鱿鱼200g(3条)</a>
+			</div>
+		</div>
+		<!--产品详情-->
+		<div class="content">
+			
+		<div class="product_intro clear">
+			<!--预览图-->
+			<div class="pic_preview">
+				<div class="zhezao"></div>
+				<div class="pic_big">
+					<!--<img src="../img/hyy3.jpg" width="500" height="500" alt="" />
+					<img src="../img/hyy2.jpg" width="500" height="500" style="display:none" alt="" />
+					<img src="../img/hyy1.jpg" width="500" height="500" style="display:none" alt="" />-->
+				
+				</div>
+				<div class="pic_thumb">
+					<ul>
+						<!--<li><img src="../img/hyy3.jpg" width="85" height="85" alt="" /></li>
+						<li><img src="../img/hyy2.jpg" width="85" height="85" alt="" /></li>
+						<li><img src="../img/hyy1.jpg" width="85" height="85" alt="" /></li>-->
+					</ul>
+				</div>
+				<div class="icon">
+					<img src="../img/xp.png" width="46" height="46" alt="" />
+				</div>
+			</div>
+			<div id="fdj"></div>
+			<div id="fdj_content">
+				<img src="../img/hyy3.jpg" width="1500" height="1500" alt="" />
+				<img src="../img/hyy2.jpg" width="1500" height="1500" alt="" />
+				<img src="../img/hyy1.jpg" width="1500" height="1500" alt="" />
+			</div>
+		</div>
+		<div class="product_info">
+			<div class="summary_name">
+				<h1>福建深海生红鱿鱼200g(3条)</h1>
+				<p></p>
+			</div>
+			<div class="summary_price">
+				<div class="pro_price">
+					<div>
+						<span>价格:</span>
+						<span>
+							<em>¥</em>
+							<strong>26.00</strong>
+						</span>
+					</div>
+				</div>
+				<div class="pro_review">
+					<p>总体满意</p>
+					<p><b>4.9</b>分</p>
+					<p>
+						<a href="javascript:;" id="pllabel">
+							<span>(评论数104)</span>
+						</a>
+					</p>
+				</div>
+			</div>
+			<div class="summary_other">
+				<div class="left">
+					<span class="pro_promo">
+						<em>促</em>
+						第二份半价
+					</span>
+					<div class="choose clear">
+						<div class="dt">规格:</div>
+						<div class="dd">
+							<ul>
+								<li class="selected">
+									<a href="#">
+										<span class="p_s1">￥26.00</span>
+										<span class="p_s2">200g/包</span>
+										<i></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pro_service">
+						满百包邮<b>24:00</b>前完成订单 预计明日
+						<b>(9月16日)</b>送达
+					</div>
+					<div class="pro_amount clear">
+						<div class="dt">数量:</div>
+						<div class="dd">
+							<div class="spinner">
+								<button class="decrease">-</button>
+								<input type="text" value="1" id="p_number"/>
+								<button class="increase">+</button>
+							</div>
+							<div class="addcart">
+								<a href="javascript:;" class="btn_gn">
+									<i></i>
+									加入购物车
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="pro_share">
+					<div class="favorite">
+						<a href="javascript:;">
+							<i></i>收藏
+						</a>
+					</div>
+					<div class="share">
+						<a href="javascript:;">
+							<i></i>分享到
+						</a>
+					</div>
+				</div>
+				</div>
+				<div class="right">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<th>原产地:</th>
+							<td>福建泉州</td>
+						</tr>
+						<tr>
+							<th>商品编号</th>
+							<td>110268</td>
+						</tr>
+						<tr>
+							<th>商品状态:</th>
+							<td><font color="2CA6E0">冷冻</font></td>
+						</tr>
+						<tr>
+							<th>发货地:</th>
+							<td>上海</td>
+						</tr>
+					</table>
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<div class="content">
+			<!--左侧-->
+			<div class="left_con">
+				
+				<div class="hd">猜你喜欢</div>
+				<div class="bd">
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con1.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con2.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con3.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con4.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con5.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con6.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con7.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con8.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con9.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+				<dl class="j_pro clear">
+					<dt><a href="#"><img src="../img/left_con10.jpg" alt="" /></a></dt>
+					<dd>
+						<p class="p_intro">台湾牛奶凤梨2个约1kg/个</p>
+						<p><span>¥69.00</span><a href="javascript:;" class="add">加入购物车</a></p>
+					</dd>
+				</dl>
+			</div>
+			
+			</div>
+			<!--右侧-->
+			<div class="main_con">
+				<!--当季热卖-->
+				<div class="hot_sale clear">
+					<h2>当季热卖</h2>
+					<dl class="hot_pro">
+						<dt><a href="javascript:;"><img src="../img/hot_sale1.jpg" alt="" /></a></dt>
+						<dd>
+							<p class="pro_na">阿根廷红虾2kg（特大号）</p>
+							<p class="pric"><strong>¥188.00</strong><del>￥188.00</del></p>
+						</dd>
+					</dl>
+					<dl class="hot_pro">
+						<dt><a href="javascript:;"><img src="../img/hot_sale2.jpg" alt="" /></a></dt>
+						<dd>
+							<p class="pro_na">阿根廷红虾2kg（特大号）</p>
+							<p class="pric"><strong>¥188.00</strong><del>￥188.00</del></p>
+						</dd>
+					</dl>
+					
+					<dl class="hot_pro">
+						<dt><a href="javascript:;"><img src="../img/hot_sale3.jpg" alt="" /></a></dt>
+						<dd>
+							<p class="pro_na">阿根廷红虾2kg（特大号）</p>
+							<p class="pric"><strong>¥188.00</strong><del>￥188.00</del></p>
+						</dd>
+					</dl>
+					
+					<dl class="hot_pro">
+						<dt><a href="javascript:;"><img src="../img/hot_sale4.jpg" alt="" /></a></dt>
+						<dd>
+							<p class="pro_na">阿根廷红虾2kg（特大号）</p>
+							<p class="pric"><strong>¥188.00</strong><del>￥188.00</del></p>
+						</dd>
+					</dl>
+					
+					<dl class="hot_pro">
+						<dt><a href="javascript:;"><img src="../img/hot_sale5.jpg" alt="" /></a></dt>
+						<dd>
+							<p class="pro_na">阿根廷红虾2kg（特大号）</p>
+							<p class="pric"><strong>¥188.00</strong><del>￥188.00</del></p>
+						</dd>
+					</dl>
+				</div>
+				<!--商品详情-->
+				<div class="product_detail">
+					<div class="detail_tab clear">
+						<ul class="detail_ul clear">
+							<li class="active"><a href="javascript:;">商品详情</a></li>
+							<li><a href="javascript:;">用户评价 <b>106</b></a></li>
+						</ul>
+						<div class="gwc">
+						<div class="addcart">
+							<a href="javascript:;">加入购物车</a>
+							
+						</div>
+						<!--购物车-->
+						<div class="shopping-cart">
+							<dl>
+							<dt class="shopping-btn">
+								<a href="#" class="shop_dt">
+									<span class="btn_dt"></span>
+									<b class="num">0</b>
+									<b class="num_dt">0.0</b>
+								</a>
+							</dt>
+							<dd class=shop_dd"">
+							
+							</dd>
+						</dl>
+						</div>
+						</div>
+					</div>
+					<div class="detail_item deta">
+						<p><img src="../img/shop_detail1.jpg" alt="" /></p>
+						<p><img src="../img/shop_detail2.jpg" alt="" /></p>
+						<p><img src="../img/shop_detail3.jpg" alt="" /></p>
+						<p><img src="../img/shop_detail4.jpg" alt="" /></p>
+						<p><img src="../img/shop_detail5.jpg" alt="" /></p>
+						<p><img src="../img/shop_detail6.jpg" alt="" /></p>
+					</div>
+					<div class="detail_evaluate deta clear">
+						<div class="common_info clear">
+							<div class="left">
+								<p>总体满意</p>
+								<p><span>4.9</span>分</p>
+								<p>(共有<b>186</b>人评论)</p>
+							</div>
+							<div class="center">
+								<ul>
+									<li class="li1"><b>好评</b><span></span><i>90%</i></li>
+									<li class="li2"><b>中评</b><span></span><i>10%</i></li>
+									<li class="li3"><b>差评</b><span></span><i>0%</i></li>
+								</ul>
+								
+							</div>
+							<div class="right">
+								<p>前5位评论用户可获得更高悠币奖励</p>
+								<a class="btn_r" href="javascript:;">我要评论</a>
+								<p>只有购买过该商品的用户才能评论</p>
+							</div>
+						</div>
+						<div class="common_list_tab_wrapper clear">
+							<div class="common_list_tab">
+								<span class="on">全部评论(50)</span>
+								<span class="">好评(40)</span>
+								<span class="">全部评论(50)</span>
+								<span class="">中评(5)</span>
+								<span class="">差评(2)</span>
+								<span class="">又晒单(0)</span>
+							</div>
+							<div class="extra">
+								<span>
+									<select name="" id="">
+										<option>按默认</option>
+										<option>按时间</option>
+									</select>
+								</span>
+								<span class="sort">
+									<label>
+										<input type="checkbox" id="sort_c" />有内容
+									</label>
+								</span>
+							</div>
+						</div>
+						<!--tab切换结束-->
+						<!--评价内容开始-->
+						
+						
+						
+						
+						<!--<div class="comment_item">
+							<div class="user">
+								<img src="../img/star1.jpg" alt="" width="60" height="60"/>
+								<span class="name">18***</span>
+								<span class="level">易生果鲜普通用户</span>
+							</div>
+							<div class="cont_com">
+								<div class="heading clear">
+									<div class="stars">
+										<div class="stars_bg">
+											<span></span>
+										</div>
+										<div>
+											<span><b>4</b>分</span>
+										</div>
+									</div>
+									<div class="txt">
+										<span>商品质量:良好</span>
+										<span>配送服务:好</span>
+										<span>服务质量:好</span>
+									</div>
+									<div class="data">
+										2016年09月16日
+										<span>07:38:05</span>
+									</div>
+									<div class="comefrom">
+										来自<b>易果</b>
+										<div class="dropdown">
+										<img src="../img/qrcode_app (1).jpg" alt="" />
+										<span>扫一扫下载app</span>
+									</div>
+									</div>
+									
+								</div>
+								<div class="reply">
+									一般
+								</div>
+							</div>
+						</div>-->
+				
+					
+						<div class="comment_item_wrapper"></div>
+					
+					<!--分页-->
+   					 <div id="Pagination" class="pagination">
+   					 	
+   					 </div>
+
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="foo"></div>
+	</body>
+</html>

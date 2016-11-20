@@ -1,0 +1,117 @@
+.filter{
+	padding: 5px 10px;
+	background: #eaeaea;
+	margin-top: 10px;
+}
+.filter a{
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	background: #fff;
+	padding: 5px 10px;
+	border: 1px solid #c7c7c7;
+	color: #444;
+}
+.filter a  i {
+	width: 10px;
+	height: 16px;
+	margin-left: 3px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/filter_icon.png) no-repeat 0 0;
+}
+.sort_3  i{
+	background-position: -40px 0;
+}
+.sort_4  i{
+	background-position: 0 0;
+} 
+/*图片列表样式*/
+.p_img{
+	position: relative;
+	width: 290px;
+	height: 290px;
+	
+}
+.p_img img{
+	width: 290px;
+	height: 290px;
+}
+.product_item{
+	margin: 15px 0 0 13px;
+	background: #fff;
+	float: left;
+	position: relative;
+	
+	
+}
+.product_item a{
+	color: #444;
+}
+.p_name{
+	height: 16px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.p_price{
+	height: 22px;
+	
+}
+.p_price .price{
+	font-size: 18px;
+	color: #e7380d;
+}
+ .p_info{
+	padding: 10px;
+	height: 48px;
+	
+}
+.p_buy{
+	display: none;
+	position: absolute;
+	width: 270px;
+	left: 0;
+	bottom: 68px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.9);
+	text-algin: center;
+}
+.p_buy span{
+	display: block;
+	width: 270px;
+	text-align: center;
+	line-height: 16px;
+	color: #444;
+	margin-bottom: 10px;
+}
+.p_ul{
+	margin-left: -13px;
+}
+.p_buy .btn_by{
+	display: block;
+	width: 180px;
+	height: 25px;
+	margin: 0 auto;
+	line-height: 25px;
+	background: #008742;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+}
+.saletip{
+	margin-left: 10px;
+	color: #e8340c;
+	display:inline-block;
+	vertical-align: middle;
+}
+.saletip b {
+    padding: 3px 5px;
+    margin-right: 5px;
+    font-weight: normal;
+    color: #fff;
+    background: #e8340c;
+	border-radius:2px;
+}

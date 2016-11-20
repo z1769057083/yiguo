@@ -1,0 +1,262 @@
+.w{
+	background: #f7f8f8;
+}
+#header_r{
+	
+	background: #e0e0e0;
+}
+
+.wrap{
+	height: 50px;
+	width: 1200px;
+	margin: 0 auto;
+	
+	padding: 15px 0 5px;
+}
+.wrap .logo h1{
+	text-indent: -5000px;
+}
+.wrap .logo a{
+	float: left;
+	display: block;
+	width: 145px;
+	height: 50px;
+	background: url(../img/logo.png) no-repeat;
+}
+.wrap .logo span{
+	margin-left: 92px;
+	display: block;
+	float: left;
+	font-size: 28px;
+	font-family: "微软雅黑","宋体";
+	color: #008842;
+}
+
+/*注册*/
+.regisiter{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+	
+}
+
+.nav_tabs{
+	
+	padding-left: 240px;
+	z-index:2;
+}
+.nav_tabs li{
+	position: relative;
+	
+	margin-right: 10px;
+	float: left;
+	border: 1px solid #c4dfb1;
+	border-bottom: none;
+	padding-bottom: 4px;
+	width: 206px;
+	height: 40px;
+}
+.nav_tabs li a{
+	background: #f7f7f7;
+	position: absolute;
+	width: 206px;
+	height: 40px;
+	text-align: center;
+	border-top: 4px solid #f7f7f7;
+	display: block;
+	color: #262626;
+	font: 18px/38px "Microsoft YaHei";
+}
+.regisiter .right{
+	position: absolute;
+	top: 17px;
+	font: 14px/1 "微软雅黑";
+	color: #262626;
+	right: 0;
+}
+.regisiter .right a{
+	color: #ef760a;
+	text-decoration: underline;
+	margin-right: 36px;
+}
+/*邮箱注册*/
+.mail_reg{
+	/*position: absolute;*/
+	display: none;
+	
+}
+.yzm{
+	width: 48px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	line-height: 24px;
+	background: url(../img/yzm.png) no-repeat;
+	
+
+}
+.yzm_error{
+	vertical-align: middle;
+	
+}
+b{
+	display: inline-block;
+	width:18px;
+	height:18px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.yzm_error b{
+	display: inline-block;
+	width:18px;
+	height:18px;
+	vertical-align: middle;
+}
+.hyz{
+	margin-left: -3px;
+	cursor: pointer;
+	vertical-align: center;
+}
+
+.regisiter .con_l{
+	float: left;
+}
+.content{
+	padding: 40px 0 50px;
+	background: #fff;
+	border: 1px solid #c4dfb1;
+
+}
+.content .con_l{
+	height: 542px;
+	min-height: 542px;
+	height: auto !important;
+}
+.content .con_l p{
+	margin-bottom: 29px;
+	font: 14px Arial,"Microsoft YaHei";
+}
+.content .con_l p a{
+	color:#444
+}
+.field-name{
+	width: 240px;
+	margin-right: 20px;
+	text-align: right;
+	display: inline-block;
+}
+
+.in_com{
+	height: 38px;
+	border: 1px solid #c1c1c1;
+	background: #fff url(../img/bg_input.png) no-repeat right;
+	padding-left: 14px;
+	margin-right: 20px;
+
+	font:14px/38px "Microsoft YaHei"
+}
+/*文本框样式*/
+.graph{
+	width: 147px;
+	background:none;
+	
+}
+/*邮箱*/
+.email{
+	width: 290px;
+	background-position: 277px 10px;
+}
+/*密码*/
+.password{
+	width: 290px;
+	background-position: 277px -70px;
+}
+/*确认密码*/
+.password_sure{
+	width: 290px;
+	background-position: 277px -70px;
+}
+/*手机号*/
+.phone_number{
+	width: 290px;
+	background-position: 277px -30px;
+}
+/*手机验证码*/
+.phone_sure{
+	width: 147px;
+	background:none;
+}
+/*获取验证码*/
+.acquire{
+	width: 123px;
+	margin-right: 20px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #f7f7f7;
+	border: 1px solid #c1c1c1;
+	display: inline-block;
+}
+/*邀请码*/
+.invite{
+	width: 290px;
+	background-position: 277px -70px;
+}
+/*我已同意*/
+.content .con_l label{
+	width: 233px;
+	height: 16px;
+}
+.read_sure{
+	width: 14px;
+	height: 14px;
+	margin-right: 9px;
+	font-size: 14px;
+}
+/*服务协议*/
+.content .con_l label .agree{
+	color: #6ab930;
+}
+
+.btn_reg{
+	width: 306px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #09964e;
+	color: #fff;
+	font: 18px/50px "Microsoft YaHei";
+}
+/*手机注册*/
+.phone_reg{
+	display: block;
+	position: relative;
+}
+.phone_reg .Tel{
+	background-position: 277px -30px;
+	width: 290px;
+}
+.phone_reg .Tel_code{
+	background: none;
+	width: 147px;
+}
+.phone_reg .code_a{
+	width: 121px;
+	margin-right: 20px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #f7f7f7;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+/*内容右边线*/
+.con_r{
+	float:right;
+	height: 390px;
+	width: 330px;
+	background: url(../img/register_line.jpg) repeat-y 0 0;
+	display: block;
+}

@@ -1,0 +1,6 @@
+{
+"floor01":{"floor_title":{"i":"F1","color":"#fd603c","a":"进口水果","sp":["进口苹果","佳沛专区","泰国鲜果"],"bg_po":"0 0"},"floor_side":"f1_01.jpg","floor_main":["f1_02.jpg","f1_03.jpg","f1_04.jpg","f1_05.jpg","f1_06.jpg","f1_07.jpg"]},
+"floor02":{"floor_title":{"i":"F2","color":"#007f4d","a":"国产水果","sp":["果味四川","台湾水果","特色海南"],"bg_po":"-46px 0"},"floor_side":"f2_01.jpg","floor_main":["f2_02.jpg","f2_03.jpg","f2_04.jpg","f2_05.jpg","f2_06.jpg","f2_07.jpg"]},
+"floor03":{"floor_title":{"i":"F3","color":"#ffcc00","a":"新鲜蔬菜","sp":["套包专供","人气粗粮","健康有机"],"bg_po":"-92px 0"},"floor_side":"f3_01.jpg","floor_main":["f3_02.jpg","f3_03.jpg","f3_04.jpg","f3_05.jpg","f3_06.jpg","f3_07.jpg"]},
+"floor04":{"floor_title":{"i":"F4","color":"#e08683","a":"海鲜水产","sp":["刺身专区","东海水产","海产干货"],"bg_po":"-138px 0"},"floor_side":"f4_01.jpg","floor_main":["f4_02.jpg","f4_03.jpg","f4_04.jpg","f4_05.jpg","f4_06.jpg","f4_07.jpg"]}
+}
